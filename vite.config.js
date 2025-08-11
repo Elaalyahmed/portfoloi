@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfoloi/',
+  base: '/portfoloi/ ',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'), // هذا السطر هو المهم
